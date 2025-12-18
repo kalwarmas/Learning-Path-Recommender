@@ -18,7 +18,7 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:5000/api/plan/generate", {
+      const res = await fetch("https://server-nine-tau-40.vercel.app/api/plan/generate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
